@@ -1,0 +1,38 @@
+{
+  "name": "dana-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:css": "postcss styles/CardStyles2.css -o output.css"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^1.0.6",
+    "@vercel/analytics": "^1.2.2",
+    "express": "^4.18.2",
+    "font-awesome": "^4.7.0",
+    "next": "^13.5.6",
+    "nodemailer": "^6.9.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-intersection-observer": "^9.5.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-scroll": "^1.8.9",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "eslint": "8.53.0",
+    "eslint-config-next": "14.0.1",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "postcss-nested": "^6.0.1",
+    "tailwindcss": "^3.3.3"
+  }
+}
