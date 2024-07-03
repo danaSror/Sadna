@@ -1,0 +1,45 @@
+.n-wrapper {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 2rem; */
+  /* top: 0; */
+}
+
+.n-left {
+  flex: 5;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 2rem;
+  padding-left: 1cm;
+}
+
+.n-right {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 400;
+  
+}
+
+.n-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.n-list {
+  flex: 10;
+}
+
+.n-list > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+}
+
+.n-list > ul > li:hover {
+  cursor: pointer;
+  color: palevioletred;
+}
